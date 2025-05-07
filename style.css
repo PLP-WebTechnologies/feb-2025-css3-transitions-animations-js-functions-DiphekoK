@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#animated-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#animated-btn:hover {
+    background-color: #0056b3;
+}
+
+
+#animated-img {
+    width: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#animated-img:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
